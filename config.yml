@@ -15,7 +15,7 @@ steps:
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
-        with: 1.1-Week 1 Step 2.md
+        with: 1.2-Week 1 Step 2.md
         issue: 1
   - title: 'Week 1: Week 1 Step 2'
     description: This is the Learning Lab content (1.2).
@@ -59,7 +59,7 @@ steps:
     link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
-        with: 02-complete.md
+        with: 2-complete.md
         issue: 2
       - type: createIssue
         title: Week 3
