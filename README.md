@@ -11,6 +11,7 @@ This returns:
 * `config.yml`
 * Course completion response files in `/responses`
 * Welcome to course response file
+* A template repository
 
 ## Response Files
 
