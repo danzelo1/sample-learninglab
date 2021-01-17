@@ -1,6 +1,16 @@
 # sample-learninglab
 Sample Learning Lab created to automate the Learning Lab creation process.
 
+## How it works
+
+User provides:
+* Course name and description in `course-details.md`
+* Response files in `/responses` and any images in `/images`
+
+This returns:
+* `config.yml`
+* Course completion response files in `/responses`
+
 ## Response Files
 
 ### Naming Conventions
@@ -20,10 +30,15 @@ Response files are to be titled with h2 at the very beginning of each markdown f
 ```md
 ## Week 1 Step 1
 
-#### This is the description*
+#### This is the description
 ```
 
 Completion response files are structured in this format: 
 ```md
 [That's it for Week #! Click here to move on to Week #!]({{ repoUrl }}/issues/#)
+```
+
+The last response file contains:
+```md
+That's it for Week #! Great work on completing the course!
 ```
