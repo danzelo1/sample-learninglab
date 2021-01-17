@@ -68,4 +68,3 @@ steps:
         issue: 3
       - type: closeIssue
         issue: 3
-tags:
