@@ -19,7 +19,7 @@ steps:
         issue: 1
   - title: 'Week 1: Week 1 Step 2'
     description: This is the Learning Lab content (1.2).
-    event: pull_request.synchronize
+    event: pull_request.merged
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
@@ -39,7 +39,7 @@ steps:
         with: 2.2-Week 2 Step 2.md
   - title: 'Week 2: Week 2 Step 2'
     description: This is the Learning Lab content (2.2).
-    event: pull_request.synchronize
+    event: pull_request.merged
     link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
@@ -60,7 +60,7 @@ steps:
         issue: 3
   - title: 'Week 3: Week 3 Step 2'
     description: This is the Learning Lab content (3.2).
-    event: pull_request.synchronize
+    event: pull_request.merged
     link: '{{ repoUrl }}/issues/3'
     actions:
       - type: respond
