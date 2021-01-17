@@ -10,6 +10,7 @@ User provides:
 This returns:
 * `config.yml`
 * Course completion response files in `/responses`
+* Welcome to course response file
 
 ## Response Files
 
