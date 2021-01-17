@@ -7,19 +7,27 @@ template:
 before:
   - type: createIssue
     title: Week 1
-    body: 0-welcome.md
+    body: 1.1-Week 1 Step 1.md
 steps:
   - title: 'Week 1: Week 1 Step 1'
     description: This is the Learning Lab content (1.1).
-    event: issue_comment.created
+    event: pull_request.closed
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
-        with: 1.1-Week 1 Step 1.md
+        with: 1.1-Week 1 Step 2.md
         issue: 1
   - title: 'Week 1: Week 1 Step 2'
     description: This is the Learning Lab content (1.2).
     event: pull_request.closed
+    link: '{{ repoUrl }}/issues/1'
+    actions:
+      - type: respond
+        with: feedback.md
+        issue: 1
+  - title: 'Week 1: Feedback'
+    description: Provide your feedback for Week 1!
+    event: issue_comment.created
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
@@ -37,9 +45,17 @@ steps:
     actions:
       - type: respond
         with: 2.2-Week 2 Step 2.md
-  - title: 'Week 2: Week 2 Step 2'
+   - title: 'Week 2: Week 2 Step 2'
     description: This is the Learning Lab content (2.2).
     event: pull_request.closed
+    link: '{{ repoUrl }}/issues/2'
+    actions:
+      - type: respond
+        with: feedback.md
+        issue: 2
+  - title: 'Week 2: Feedback'
+    description: Provide your feedback for Week 2!
+    event: issue_comment.created
     link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
@@ -52,7 +68,7 @@ steps:
         issue: 2
   - title: 'Week 3: Week 3 Step 1'
     description: This is the Learning Lab content (3.1).
-    event: issue_comment.created
+    event: pull_request.closed
     link: '{{ repoUrl }}/issues/3'
     actions:
       - type: respond
@@ -61,6 +77,14 @@ steps:
   - title: 'Week 3: Week 3 Step 2'
     description: This is the Learning Lab content (3.2).
     event: pull_request.closed
+    link: '{{ repoUrl }}/issues/3'
+    actions:
+      - type: respond
+        with: feedback.md
+        issue: 3
+  - title: 'Week 3: Week 3 Step 2'
+    description: Provide your feedback for Week 3!
+    event: issue_comment.created
     link: '{{ repoUrl }}/issues/3'
     actions:
       - type: respond
