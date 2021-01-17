@@ -14,13 +14,13 @@ After each week is complete, a file that contains the link to move on the the ne
 
 ### Structure
 
-Response files are to be titled with h2 at the very beginning of each markdown file. The title at the top will be the same title used in Github Learning Labs (what is in the config.yml file).
+Response files are to be titled with h2 at the very beginning of each markdown file. The title at the top will be the same title used in Github Learning Labs (what is in the config.yml file). The description of the step should be placed directly under formatted in h4.
 
 > Example:
 ```md
 ## Week 1 Step 1
 
-*This is the content*
+#### This is the description*
 ```
 
 Completion response files are structured in this format: 
