@@ -10,7 +10,7 @@ User provides:
 This returns:
 * `config.yml`
 * Course completion response files in `/responses`
-* Welcome to course response files + feedback files
+* Feedback file
 * A template repository
 
 ## Response Files
@@ -23,6 +23,16 @@ Step response file name: `[Week#].[Step#]-[Step title].md`
 After each week is complete, a file that contains the link to move on the the next week (or issue): `[Week#]-complete.md`
 
 > Example: `1-complete.md`
+
+The `course-details.md` file must contain the course name and description. The course name must be formatted with h1 and the course description must be italicized.
+
+> Example:
+
+```md
+# Course Title
+
+*course description*
+```
 
 ### Structure
 
