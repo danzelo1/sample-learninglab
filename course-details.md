@@ -1,6 +1,6 @@
 # Sample Learning Lab
 
-About: *Course description*
+*Course description*
 
 ## **Week 1**
 **Learning Objectives**
