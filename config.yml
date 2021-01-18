@@ -45,6 +45,7 @@ steps:
     actions:
       - type: respond
         with: 2.2-Week 2 Step 2.md
+        issue: 2
   - title: 'Week 2: Week 2 Step 2'
     description: This is the Learning Lab content (2.2).
     event: pull_request.closed
