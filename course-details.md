@@ -1,4 +1,4 @@
-# Course Information
+# Sample Learning Lab
 
 *Course description*
 
