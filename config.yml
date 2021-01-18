@@ -45,7 +45,7 @@ steps:
     actions:
       - type: respond
         with: 2.2-Week 2 Step 2.md
-        issue: 2
+        issue: 4
   - title: 'Week 2: Week 2 Step 2'
     description: This is the Learning Lab content (2.2).
     event: pull_request.closed
@@ -53,7 +53,7 @@ steps:
     actions:
       - type: respond
         with: feedback.md
-        issue: 2
+        issue: 4
   - title: 'Week 2: Feedback'
     description: Provide your feedback for Week 2!
     event: issue_comment.created
@@ -61,12 +61,12 @@ steps:
     actions:
       - type: respond
         with: 2-complete.md
-        issue: 2
+        issue: 4
       - type: createIssue
         title: Week 3
         body: 3.1-Week 3 Step 1.md
       - type: closeIssue
-        issue: 2
+        issue: 4
   - title: 'Week 3: Week 3 Step 1'
     description: This is the Learning Lab content (3.1).
     event: pull_request.closed
@@ -74,7 +74,7 @@ steps:
     actions:
       - type: respond
         with: 3.2-Week 3 Step 2.md
-        issue: 3
+        issue: 7
   - title: 'Week 3: Week 3 Step 2'
     description: This is the Learning Lab content (3.2).
     event: pull_request.closed
@@ -82,7 +82,7 @@ steps:
     actions:
       - type: respond
         with: feedback.md
-        issue: 3
+        issue: 7
   - title: 'Week 3: Week 3 Step 2'
     description: Provide your feedback for Week 3!
     event: issue_comment.created
@@ -90,6 +90,6 @@ steps:
     actions:
       - type: respond
         with: 3-complete.md
-        issue: 3
+        issue: 7
       - type: closeIssue
-        issue: 3
+        issue: 7
