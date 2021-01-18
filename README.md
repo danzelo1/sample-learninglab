@@ -37,7 +37,7 @@ Response files are to be titled with h2 at the very beginning of each markdown f
 
 Completion response files are structured in this format: 
 ```md
-[That's it for Week #! Click here to move on to Week #!]({{ repoUrl }}/issues/#)
+[That's it for Week #! Click here to move on to Week #!]({{ repoUrl }}/issues)
 ```
 
 The last response file contains:
