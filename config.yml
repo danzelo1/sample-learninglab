@@ -83,7 +83,7 @@ steps:
       - type: respond
         with: feedback.md
         issue: 7
-  - title: 'Week 3: Week 3 Step 2'
+  - title: 'Week 3: Feedback'
     description: Provide your feedback for Week 3!
     event: issue_comment.created
     link: '{{ repoUrl }}/issues/'
