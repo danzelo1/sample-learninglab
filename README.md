@@ -24,14 +24,14 @@ After each week is complete, a file that contains the link to move on the the ne
 
 > Example: `1-complete.md`
 
-The `course-details.md` file must contain the course name and description. The course name must be formatted with h1 and the course description must be italicized.
+The `course-details.md` file must contain the course name and description. The course name must be formatted with h1 and the course description must be titled with `About: `.
 
 > Example:
 
 ```md
 # Course Title
 
-*course description*
+About: *course description*
 ```
 
 ### Structure
